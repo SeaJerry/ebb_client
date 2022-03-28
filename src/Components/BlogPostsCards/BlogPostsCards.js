@@ -2,6 +2,10 @@ import React from 'react'
 import './BlogPostsCards.css'
 import BlogPost from '../BlogPost/BlogPost'
 import moab from '../../images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg'
+import surf from '../../images/gian-luca-pilia-KxQYNqp329Y-unsplash.jpg'
+import jungle from '../../images/jared-rice-IgE49g4qbCk-unsplash.jpg'
+import tokyo from '../../images/ryoji-iwata-n31JPLu8_Pw-unsplash.jpg'
+import sailing from '../../images/artem-verbo-zHg5TXgVoGQ-unsplash.jpg'
 
 
 const BlogPostsCards = () => {
@@ -9,37 +13,36 @@ const BlogPostsCards = () => {
     <div className='cards'>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-        {/* <h1 className="section-title">Recent Posts</h1> */}
           <ul className='cards__items'>
             <BlogPost
               src={moab}
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='Explore the Arches and beautiful sand stone of Utah...'
               label='Adventure'
               path='/services'
             />
             <BlogPost
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src={surf}
+              text='Travel through Bali In search for the best waves...'
+              label='Surf'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <BlogPost
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src={jungle}
+              text='Find your jungle paradise and kick your feet up...'
+              label='Travel'
               path='/services'
             />
             <BlogPost
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src={tokyo}
+              text='Getting lost in Tokyo, Japan...'
+              label='Explore'
               path='/products'
             />
             <BlogPost
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src={sailing}
+              text='Sailing through the open sea..'
               label='Adrenaline'
               path='/sign-up'
             />
