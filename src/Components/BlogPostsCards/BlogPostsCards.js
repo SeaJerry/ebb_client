@@ -17,13 +17,13 @@ const BlogPostsCards = () => {
               src={jungle}
               text="Find your jungle paradise and kick your feet up..."
               label="Travel"
-              path="/services"
+              path="/Post"
             />
             <BlogPost
               src={surf}
               text="Travel through Bali In search for the best waves..."
               label="Surf"
-              path="/services"
+              path="/Post"
             />
           </ul>
           <ul className="cards__items">
@@ -31,20 +31,20 @@ const BlogPostsCards = () => {
               src={moab}
               text="Explore the Arches and beautiful sand stone of Utah..."
               label="Adventure"
-              path="/services"
+              path="/Post"
             />
 
             <BlogPost
               src={tokyo}
               text="Getting lost in Tokyo, Japan..."
               label="Explore"
-              path="/products"
+              path="/Post"
             />
             <BlogPost
               src={sailing}
               text="Sailing through the open sea.."
               label="Adrenaline"
-              path="/sign-up"
+              path="/Post"
             />
           </ul>
         </div>

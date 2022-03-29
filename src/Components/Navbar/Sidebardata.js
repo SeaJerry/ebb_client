@@ -5,8 +5,8 @@ export const SidebarData = [
     className: "nav-text",
   },
   {
-    title: "About",
-    path: "/About",
+    title: "Journal",
+    path: "/Journal",
     className: "nav-text",
   },
   {

@@ -14,8 +14,6 @@
     margin-top: -370px;
 }
 
-
-
 .login-form {
     display: flex;
     flex-direction: column;
@@ -54,6 +52,7 @@
     cursor: pointer;
     transition: 1s;
     color: #fff;
+    margin-top: 10px;
 }
 
 .login-btn-1:hover {

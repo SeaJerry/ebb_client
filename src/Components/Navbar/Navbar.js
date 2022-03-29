@@ -5,8 +5,13 @@ import * as AiIcons from "react-icons/ai";
 import * as FaIcons from "react-icons/fa";
 import { useState } from "react";
 
-const Navbar = ({ resetIsSubmitted }) => {
+const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const resetIsSubmitted = () => {
+    setIsSubmitted(false);
+  };
 
   const showSidebar = () => setSidebar(!sidebar);
 
@@ -30,7 +35,7 @@ const Navbar = ({ resetIsSubmitted }) => {
         <ul className="nav-menu-items" onClick={showSidebar}>
           <li className="navbar-toggle">
             <Link to="#" className="menu-bars">
-              <AiIcons.AiOutlineClose className="closeout-icon"/>
+              <AiIcons.AiOutlineClose className="closeout-icon" />
             </Link>
           </li>
           {SidebarData.map((item, index) => {

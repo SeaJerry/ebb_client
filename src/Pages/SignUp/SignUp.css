@@ -50,7 +50,7 @@
     letter-spacing: 1px;
     cursor: pointer;
     transition: 1s;
-    margin-bottom: 25px;
+    margin: 10px 0;
     color: #242424;
 }
 
@@ -68,7 +68,7 @@
     letter-spacing: 1px;
     cursor: pointer;
     transition: 1s;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .sign-up-btn-2:hover {

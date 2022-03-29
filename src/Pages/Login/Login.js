@@ -6,10 +6,10 @@ const Login = () => {
     <div className="main-login-container">
       <div className="login-form-container">
         <form className="login-form">
-          <label className="login-form-heading">Email</label>
+          <label className="login-form-heading">Username</label>
           <input
             className="login-inpt"
-            type="email"
+            type="text"
             placeholder="Enter Username"
           />
           <label className="login-form-heading">Password</label>
