@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -600px;
+    margin-top: -725px;
 }
 
 
@@ -34,7 +34,7 @@
     height: 30px;
     border: none;
     border-radius: 10px;
-    background-color: #000;
+    background-color: #242424;
     text-align: center;
     color: #fff;
     margin: 10px;
@@ -50,9 +50,28 @@
     letter-spacing: 1px;
     cursor: pointer;
     transition: 1s;
+    margin-bottom: 25px;
+    color: #242424;
 }
 
 .sign-up-btn-1:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.sign-up-btn-2 {
+    width: 280px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color:#fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 25px;
+}
+
+.sign-up-btn-2:hover {
     background-color: #000;
     color: #fff;
 }

@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home/Home'
 import Write from './Pages/Write/Write'
 import SignUp from './Pages/SignUp/SignUp';
+import Login from './Pages/Login/Login';
 
 function App() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -26,9 +27,8 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/Write" element={<Write/>} />
         <Route path="/SignUp" element={<SignUp/>} />
-
+        <Route path="/Login" element={<Login/>} />
       </Routes>
-      {/* <Footer /> */}
     </div>
   );
 }

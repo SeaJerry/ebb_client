@@ -20,8 +20,8 @@ export const SidebarData = [
     className: "nav-text",
   },
   {
-    title: "Logout",
-    path: "/Logout",
+    title: "Login",
+    path: "/Login",
     className: "nav-text",
   },
 ];
