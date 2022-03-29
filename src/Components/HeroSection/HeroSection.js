@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
 import city from "../../images/citycrawling.jpeg"
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -8,8 +9,8 @@ const HeroSection = () => {
       <img className="city-bg" src={city} alt="city" />
       <div className="hero-btn-container">
         <h1>Never Stop Exploring</h1>
-        <p>What are you waiting for?</p>
-        <button className="sign-up-btn">Sign Up</button>
+        <p>Where Great Journeys Begin...</p>
+        <Link to="/SignUp"><button className="sign-up-btn">Sign Up</button></Link>
       </div>
     </section>
   );

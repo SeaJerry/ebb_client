@@ -38,6 +38,7 @@
     background-color: #c19898;
     opacity: .7;
     color: #e6e6e6;
+    letter-spacing: 1px;
     transition: 1s;
     cursor: pointer;
 }
