@@ -56,3 +56,27 @@
     color: #c19898;
 }
 
+/* T A B L E T */
+
+@media only screen and (min-width: 768px){
+    .hero-btn-container{
+        margin-top: -355px;
+    }
+    .hero-container h1 {
+        font-size: 40px;
+    }
+    .hero-container p {
+        font-size: 18px;
+    }
+    .sign-up-btn {
+        width: 400px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+
+/* D E S K T O P */
+@media only screen and (min-width: 1024px){
+
+}

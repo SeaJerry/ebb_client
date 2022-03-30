@@ -15,13 +15,13 @@ const BlogPostsCards = () => {
           <ul className="cards__items">
             <BlogPost
               src={jungle}
-              text="Find your jungle paradise and kick your feet up..."
+              text="A Journey To The Most Beautiful Jungle Paradise..."
               label="Travel"
               path="/Post"
             />
             <BlogPost
               src={surf}
-              text="Travel through Bali In search for the best waves..."
+              text="Travel Through Bali In Search For Undiscovered Waves..."
               label="Surf"
               path="/Post"
             />
@@ -29,20 +29,20 @@ const BlogPostsCards = () => {
           <ul className="cards__items">
             <BlogPost
               src={moab}
-              text="Explore the Arches and beautiful sand stone of Utah..."
+              text="Explore The Arches And The Beautiful Sandstones Of Utah..."
               label="Adventure"
               path="/Post"
             />
 
             <BlogPost
               src={tokyo}
-              text="Getting lost in Tokyo, Japan..."
+              text="Why Travel to Japan? 20 Best Reasons to Visit it ..."
               label="Explore"
               path="/Post"
             />
             <BlogPost
               src={sailing}
-              text="Sailing through the open sea.."
+              text="Finding Reasons to Get Lost Through The Open Sea.."
               label="Adrenaline"
               path="/Post"
             />
@@ -54,3 +54,4 @@ const BlogPostsCards = () => {
 };
 
 export default BlogPostsCards;
+

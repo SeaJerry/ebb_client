@@ -103,6 +103,29 @@
     font-size: 14px;
     line-height: 24px;
   }
+
+
+/* T A B L E T */
+@media only screen and (min-width: 768px){
+  .cards__container {
+    width: 95%;
+  }
+
+  .cards__item {
+    width: 550px;
+  }
+  .cards__item__info h5 {
+    font-size: 18px;
+  }
+}
+
+
+/* D E S K T O P */
+@media only screen and (min-width: 1024px){
+
+}
+
+
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {

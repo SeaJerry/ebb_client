@@ -100,3 +100,30 @@
     cursor: pointer;
 }
 
+/* T A B L E T */
+@media only screen and (min-width: 768px){
+    .navbar {
+        height: 100px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    .menu-bars {
+        font-size: 35px;
+    }
+    
+    .closeout-icon {
+        font-size: 35px;
+    }
+
+    .nav-text a {
+        font-size: 30px;
+    }
+}
+
+/* D E S K T O P */
+@media only screen and (min-width: 1024px){
+
+}

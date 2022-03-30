@@ -9,7 +9,7 @@ const HeroSection = () => {
       <img className="city-bg" src={city} alt="city" />
       <div className="hero-btn-container">
         <h1>Never Stop Exploring</h1>
-        <p>Where Great Journeys Begin...</p>
+        <p>Where the Greatest Journeys Begin...</p>
         <Link to="/SignUp"><button className="sign-up-btn">Sign Up</button></Link>
       </div>
     </section>
