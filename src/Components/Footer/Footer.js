@@ -9,7 +9,7 @@ const Footer = () => {
       <section className="footer-subscription">
         <div className="footer-wrapper">
           <p className="footer-subscription-heading">Join the newsletter</p>
-          <p className="footer-subscription-text">Unsubscribe at any time</p>
+          <p className="footer-subscription-text">Unsubscribe anytime</p>
           <div className="input-areas">
             <form>
               <input

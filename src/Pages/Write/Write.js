@@ -19,7 +19,7 @@ const Write = () => {
     };
 
     try {
-      const response = await axios.post("http://localhost:3000/posts", newPost);
+      const response = await axios.post("https://murmuring-inlet-81483.herokuapp.com/posts", newPost);
       response.data && window.location.replace("/#/Journal");
       console.log(response);
     } catch (error) {
@@ -66,7 +66,7 @@ const Write = () => {
             ></textarea>
           </div>
           <button className="submit-btn" type="submit">
-            Submit
+            Publish
           </button>
         </form>
       </div>

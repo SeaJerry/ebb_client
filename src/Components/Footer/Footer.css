@@ -74,7 +74,26 @@ p {
 
 /* T A B L E T */
 @media only screen and (min-width: 768px){
+    .footer-subscription p {
+        font-size: 18px;
+    }
 
+    .footer-input {
+        width: 425px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .footer-btn {
+        width: 400px;
+        height: 30px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .icons {
+        font-size: 25px;
+    }
 }
 
 

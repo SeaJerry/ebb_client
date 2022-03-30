@@ -4,7 +4,7 @@
      justify-content: center;
      align-items: center;
      text-align: center;
-     background-color: #e6e6e6;
+     background-color: #DCDCDC;
      height: 100vh;
      width: 100%;
 
@@ -56,6 +56,24 @@
 }
 
 .login-btn-1:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #DCDCDC;
+    color: #000;
+}
+
+/* T A B L E T / D E S K T O P */
+@media only screen and (min-width: 768px){
+    .login-form-heading {
+        font-size: 28px;
+    }
+
+    .login-inpt {
+        width: 450px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .login-btn-1 {
+        margin-top: 12px;
+        letter-spacing: 2px;
+    }
 }

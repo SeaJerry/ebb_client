@@ -60,3 +60,27 @@
     background-color: #e6e6e6;
     color: #242424;
 }
+
+/* T A B L E T / D E S K T O P */
+
+@media only screen and (min-width: 768px){
+    #content {
+        width: 600px;
+        height: 400px;
+        margin: 50px 0 20px 0;
+        font-size: 16px;
+    }
+
+    .write-inpt {
+        width: 450px;
+        height: 35px;
+        margin: 8px;
+        font-size: 16px;
+    }
+
+    .submit-btn {
+        width: 350px;
+        height: 35px;
+        font-size: 16px;
+    }
+}

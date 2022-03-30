@@ -13,7 +13,7 @@ const SignUp = () => {
 
 const handleSubmit = async (e) => {
   e.preventDefault()
-  const response = await axios.post("http://localhost:3000/auth/register", {
+  const response = await axios.post("https://murmuring-inlet-81483.herokuapp.com/auth/register", {
     username,
     email,
     password,

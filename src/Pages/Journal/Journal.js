@@ -11,7 +11,7 @@ const Journal = () => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await axios.get("http://localhost:3000/posts/");
+        const response = await axios.get("https://murmuring-inlet-81483.herokuapp.com/posts/");
 
         setData(response.data);
       } catch (error) {
@@ -24,7 +24,7 @@ const Journal = () => {
 
   const listItem = data.map((item, index) => {
     return (
-      <>
+      <div className="main-journal-container">
         <div className="journal">
             <div className="journal_wrapper">
               <ul className="journal-container">
@@ -41,12 +41,13 @@ const Journal = () => {
                     <h5 className="journal_item_text">{item.description}</h5>
                   </div>
                   <h6 className="journal_item_username">Author: {item.username}</h6>
+                  <h6 className="journal_item_username">Published: {item.createdAt}</h6>
                 </li>
               </ul>
             </div>
         </div>
 
-      </>
+      </div>
     );
   });
 

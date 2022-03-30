@@ -46,7 +46,7 @@
     height: 30px;
     border: none;
     border-radius: 10px;
-    background-color:#fff;
+    background-color:#dcdcdc;
     letter-spacing: 1px;
     cursor: pointer;
     transition: 1s;
@@ -64,7 +64,7 @@
     height: 30px;
     border: none;
     border-radius: 10px;
-    background-color:#fff;
+    background-color:#dcdcdc;
     letter-spacing: 1px;
     cursor: pointer;
     transition: 1s;
@@ -75,6 +75,43 @@
     background-color: #000;
     color: #fff;
 }
+
+
+
+/* T A B L E T / D E S K T O P */
+@media only screen and (min-width: 768px){
+    .sign-up-form {
+        margin-top:  -900px;
+    }
+
+    .sign-up-form-heading {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .sign-up-inpt {
+        width: 400px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .sign-up-btn-1 {
+        margin-top: 20px;
+        width: 350px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .sign-up-btn-2 {
+        margin-top: 10px;
+        width: 300px;
+        height: 30px;
+        font-size: 16px;
+        background-color: #dcdcdc;
+    }
+}
+
+
 
 
 

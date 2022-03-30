@@ -108,6 +108,7 @@
 /* T A B L E T */
 @media only screen and (min-width: 768px){
   .cards__container {
+    margin: 50px 0;
     width: 95%;
   }
 
@@ -122,26 +123,14 @@
 
 /* D E S K T O P */
 @media only screen and (min-width: 1024px){
-
+  .cards__items {
+    display: flex;
+    
+  }
+  .cards__item {
+    margin: 20px;
+    width: 300px;
+  }
 }
 
 
-  
-  @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      width: 84%;
-    }
-  }
-  
-  @media only screen and (min-width: 1024px) {
-    .cards__items {
-      display: flex;
-    }
- 
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .cards__item {
-      margin-bottom: 2rem;
-    }
-  }
