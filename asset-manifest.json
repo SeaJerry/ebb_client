@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ebb_client/static/css/main.22028f00.css",
-    "main.js": "/ebb_client/static/js/main.398c2649.js",
+    "main.js": "/ebb_client/static/js/main.718251bb.js",
     "static/js/787.c7feb2a2.chunk.js": "/ebb_client/static/js/787.c7feb2a2.chunk.js",
     "static/media/jared-rice-IgE49g4qbCk-unsplash.jpg": "/ebb_client/static/media/jared-rice-IgE49g4qbCk-unsplash.39452d5fc30904e8668e.jpg",
     "static/media/dino-reichmuth-A5rCN8626Ck-unsplash.jpg": "/ebb_client/static/media/dino-reichmuth-A5rCN8626Ck-unsplash.46c4a24bbd5751cf3d22.jpg",
@@ -12,11 +12,11 @@
     "static/media/citycrawling.jpeg": "/ebb_client/static/media/citycrawling.c7fdcbc530dc4f88a3f6.jpeg",
     "index.html": "/ebb_client/index.html",
     "main.22028f00.css.map": "/ebb_client/static/css/main.22028f00.css.map",
-    "main.398c2649.js.map": "/ebb_client/static/js/main.398c2649.js.map",
+    "main.718251bb.js.map": "/ebb_client/static/js/main.718251bb.js.map",
     "787.c7feb2a2.chunk.js.map": "/ebb_client/static/js/787.c7feb2a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22028f00.css",
-    "static/js/main.398c2649.js"
+    "static/js/main.718251bb.js"
   ]
 }
