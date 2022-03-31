@@ -23,7 +23,7 @@ const handleSubmit = async (e) => {
       password: passwordReference.current.value,
     })
     dispatch({type:"login_success", payload: response.data})
-    window.location.replace("/#/Journal")
+    window.location.replace("https://seajerry.github.io/#/Journal")
   } catch (error) {
     dispatch({type:"login_fail"})
   }
