@@ -18,7 +18,7 @@ const handleSubmit = async (e) => {
     email,
     password,
   });
-  response.data && window.location.replace("/#/Login")
+  response.data && window.location.replace("https://seajerry.github.io/ebb_client/#/Login")
   console.log(response)
 };
 
