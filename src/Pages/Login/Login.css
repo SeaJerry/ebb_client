@@ -53,6 +53,8 @@
     transition: 1s;
     color: #fff;
     margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .login-btn-1:hover {

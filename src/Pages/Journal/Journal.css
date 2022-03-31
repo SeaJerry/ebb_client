@@ -35,6 +35,7 @@
 
   .journal_item_text {
     padding: 10px;
+
   }
 
   .journal_item_info h2 {
@@ -117,6 +118,10 @@
     height: 650px;
     margin: 10px 0 50px 0;
   }
+
+  /* .journal_item_info {
+    width: 30px;
+  } */
 
   .journal_item_info h5 {
     font-size: 18px;

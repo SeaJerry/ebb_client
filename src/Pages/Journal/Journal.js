@@ -10,6 +10,7 @@ import { Context } from "../../Context/Context";
 const Journal = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
+  const {user} = useContext(Context);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,7 +26,7 @@ const Journal = () => {
     fetchData();
   }, []);
 
-  const {user} = useContext(Context);
+ 
 
 
   
