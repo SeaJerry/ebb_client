@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router } from "react-router-dom";
+import { ContextProvider } from './Context/Context';
 
 ReactDOM.render(
   <Router>
+    <ContextProvider>
     <App />
+    </ContextProvider>
   </Router>,
   document.getElementById('root')
 );
