@@ -1,7 +1,11 @@
 import React from "react";
 import "./Journal.css";
+import * as FaIcons from "react-icons/fa";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { useContext} from "react";
+import { Context } from "../../Context/Context";
+
 
 const Journal = () => {
   const [loading, setLoading] = useState(true);
@@ -20,7 +24,16 @@ const Journal = () => {
     };
     fetchData();
   }, []);
-  console.log(data.length);
+
+  const {user} = useContext(Context);
+
+
+  
+  const handleDelete = async (id) => {
+    await axios.delete(`https://murmuring-inlet-81483.herokuapp.com/posts/${id}`)
+    .then((res) =>
+    console.log("Deleted", res).catch((error) => console.log(error)))
+  }
 
   const listItem = data.map((item, index) => {
     return (
@@ -42,6 +55,10 @@ const Journal = () => {
                   </div>
                   <h6 className="journal_item_username">Author: {item.username}</h6>
                   <h6 className="journal_item_username">Published: {item.createdAt}</h6>
+
+                      <FaIcons.FaTrash className="delete-btn" onClick={() => handleDelete(item._id)} />
+    
+                  
                 </li>
               </ul>
             </div>
