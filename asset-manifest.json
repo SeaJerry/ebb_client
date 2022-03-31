@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ebb_client/static/css/main.22028f00.css",
+    "main.js": "/ebb_client/static/js/main.8dd09bb7.js",
+    "static/js/787.c7feb2a2.chunk.js": "/ebb_client/static/js/787.c7feb2a2.chunk.js",
+    "static/media/jared-rice-IgE49g4qbCk-unsplash.jpg": "/ebb_client/static/media/jared-rice-IgE49g4qbCk-unsplash.39452d5fc30904e8668e.jpg",
+    "static/media/dino-reichmuth-A5rCN8626Ck-unsplash.jpg": "/ebb_client/static/media/dino-reichmuth-A5rCN8626Ck-unsplash.46c4a24bbd5751cf3d22.jpg",
+    "static/media/gian-luca-pilia-KxQYNqp329Y-unsplash.jpg": "/ebb_client/static/media/gian-luca-pilia-KxQYNqp329Y-unsplash.0f08894665d16c110cda.jpg",
+    "static/media/artem-verbo-zHg5TXgVoGQ-unsplash.jpg": "/ebb_client/static/media/artem-verbo-zHg5TXgVoGQ-unsplash.78975ca024da617169db.jpg",
+    "static/media/ryoji-iwata-n31JPLu8_Pw-unsplash.jpg": "/ebb_client/static/media/ryoji-iwata-n31JPLu8_Pw-unsplash.5332969e9a32f3b5c5a4.jpg",
+    "static/media/leonardo-yip-rn-NLirHQPY-unsplash.jpg": "/ebb_client/static/media/leonardo-yip-rn-NLirHQPY-unsplash.3c78506f3a27389d8263.jpg",
+    "static/media/citycrawling.jpeg": "/ebb_client/static/media/citycrawling.c7fdcbc530dc4f88a3f6.jpeg",
+    "index.html": "/ebb_client/index.html",
+    "main.22028f00.css.map": "/ebb_client/static/css/main.22028f00.css.map",
+    "main.8dd09bb7.js.map": "/ebb_client/static/js/main.8dd09bb7.js.map",
+    "787.c7feb2a2.chunk.js.map": "/ebb_client/static/js/787.c7feb2a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22028f00.css",
+    "static/js/main.8dd09bb7.js"
+  ]
+}
