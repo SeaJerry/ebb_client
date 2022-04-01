@@ -17,7 +17,7 @@ const SignUp = () => {
       { username, email, password }, 
       { 
         headers: {
-          "Access-Control-Allow-Origin": "https://seajerry.github.io",
+          "Access-Control-Allow-Origin": "https://murmuring-inlet-81483.herokuapp.com/auth/register",
           "Content-Type": "application/json",
         },
         withCredentials: true,
