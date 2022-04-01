@@ -17,7 +17,7 @@ const SignUp = () => {
       { username, email, password }, 
       { 
         headers: {
-          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Origin": "https://seajerry.github.io/ebb_client/#/",
           "Content-Type": "application/json",
         },
         withCredentials: true,
