@@ -14,12 +14,13 @@ const SignUp = () => {
     e.preventDefault();
     const response = await axios.post(
       "https://murmuring-inlet-81483.herokuapp.com/auth/register",
-      { username, email, password },
+      { username, email, password }, 
       {
         headers: {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
         },
+        withCredentials: true,
       }
     );
     response.data &&
