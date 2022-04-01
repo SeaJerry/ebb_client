@@ -15,10 +15,11 @@ const SignUp = () => {
     const response = await axios.post(
       "https://murmuring-inlet-81483.herokuapp.com/auth/register",
       { username, email, password }, 
-      {
+      { 
+        mode: 'no-cors',
         headers: {
-          "Content-Type": "application/json",
           "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json",
         },
         withCredentials: true,
       }
