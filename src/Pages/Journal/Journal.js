@@ -28,9 +28,10 @@ const Journal = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`https://murmuring-inlet-81483.herokuapp.com//posts/${id}`, {
+      await axios.delete(`https://murmuring-inlet-81483.herokuapp.com/posts/${id}`, {
         data: { username: user.username },
       });
+      console.log(id)
       window.location.replace("https://seajerry.github.io/ebb_client/#/Journal");
     } catch (err) {}
   };
@@ -64,7 +65,7 @@ const Journal = () => {
                   <h6 className="journal_item_username">Author: {item.username}</h6>
                   <h6 className="journal_item_username">Published: {item.createdAt}</h6>
 
-                      <FaIcons.FaTrash className="delete-btn" onClick={() => handleDelete(item._id)} />
+                      <FaIcons.FaTrash className="delete-btn" onClick={handleDelete} />
     
                   
                 </li>
