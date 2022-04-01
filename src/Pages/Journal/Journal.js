@@ -28,10 +28,10 @@ const Journal = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`/posts/${id}`, {
+      await axios.delete(`https://murmuring-inlet-81483.herokuapp.com//posts/${id}`, {
         data: { username: user.username },
       });
-      window.location.replace("/");
+      window.location.replace("https://seajerry.github.io/ebb_client/#/Journal");
     } catch (err) {}
   };
 
