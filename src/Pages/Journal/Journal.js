@@ -26,15 +26,22 @@ const Journal = () => {
     fetchData();
   }, []);
 
- 
+  const handleDelete = async (id) => {
+    try {
+      await axios.delete(`/posts/${id}`, {
+        data: { username: user.username },
+      });
+      window.location.replace("/");
+    } catch (err) {}
+  };
 
 
   
-  const handleDelete = async (id) => {
-    await axios.delete(`https://murmuring-inlet-81483.herokuapp.com/posts/${id}`)
-    .then((res) =>
-    console.log("Deleted", res).catch((error) => console.log(error)))
-  }
+  // const handleDelete = async (id) => {
+  //   await axios.delete(`https://murmuring-inlet-81483.herokuapp.com/posts/${id}`)
+  //   .then((res) =>
+  //   console.log("Deleted", res).catch((error) => console.log(error)))
+  // }
 
   const listItem = data.map((item, index) => {
     return (
