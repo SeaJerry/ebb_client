@@ -28,7 +28,7 @@ const Journal = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`https://murmuring-inlet-81483.herokuapp.com/posts/${id}`, {
+      await axios.delete(`https://murmuring-inlet-81483.herokuapp.com/posts/${data.id}`, {
         data: { username: user.username },
       });
       console.log(id)
