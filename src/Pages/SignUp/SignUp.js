@@ -16,7 +16,6 @@ const SignUp = () => {
       "https://murmuring-inlet-81483.herokuapp.com/auth/register",
       { username, email, password }, 
       { 
-        mode: 'no-cors',
         headers: {
           "Access-Control-Allow-Origin": "*",
           "Content-Type": "application/json",
