@@ -26,12 +26,12 @@ const Journal = () => {
     fetchData();
   }, []);
 
-  const handleDelete = async (id) => {
+  const handleDelete = async () => {
     try {
-      await axios.delete(`https://murmuring-inlet-81483.herokuapp.com/posts/${data.id}`, {
+      await axios.delete(`https://murmuring-inlet-81483.herokuapp.com/posts/${data._id}`, {
         data: { username: user.username },
       });
-      console.log(id)
+      console.log(data)
       window.location.replace("https://seajerry.github.io/ebb_client/#/Journal");
     } catch (err) {}
   };
