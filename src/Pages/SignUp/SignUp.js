@@ -15,13 +15,13 @@ const SignUp = () => {
     const response = await axios.post(
       "https://murmuring-inlet-81483.herokuapp.com/auth/register",
       { username, email, password }, 
-      { 
-        headers: {
-          "Access-Control-Allow-Origin": "https://murmuring-inlet-81483.herokuapp.com/auth/register",
-          "Content-Type": "application/json",
-        },
-        withCredentials: true,
-      }
+      // { 
+      //   headers: {
+      //     "Access-Control-Allow-Origin": "https://murmuring-inlet-81483.herokuapp.com/auth/register",
+      //     "Content-Type": "application/json",
+      //   },
+      //   withCredentials: true,
+      // }
     );
     response.data &&
       window.location.replace("https://seajerry.github.io/ebb_client/#/Login");
