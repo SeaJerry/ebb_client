@@ -11,7 +11,7 @@ As a regular Ebb app user, I want to share my traveling experiences with others 
 
 Client
 - [Client Repo](https://github.com/SeaJerry/ebb_client)
-- [Deployed Client]()
+- [Deployed Client](https://seajerry.github.io/ebb_client/#/)
 
 Server
 - [Server Repo](https://github.com/SeaJerry/ebb_server)
